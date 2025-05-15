@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    :root {
+      --background: white;
+      --text: black;
+    }
+
+    .light {
+      --background: white;
+      --text: black;
+    }
+
+    .dark {
+      --background: black;
+      --text: white;
+    }
+
+    body {
+      background-color: var(--background);
+      color: var(--text);
+    }
+
+    li:last-child {
+      color: red;
+    }
+
+    li:first-child {
+      color: blue;
+    }
+
+    li:nth-child(2) {
+      color: green;
+    }
+
+    .title {
+      color: rgb(56, 216, 120);
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">hello 四万</h1>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+</body>
+
+</html>
