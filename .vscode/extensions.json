@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "adpyke.codesnap",
+    "bradlc.vscode-tailwindcss",
+    "github.vscode-pull-request-github",
+    "humao.rest-client",
+    "shd101wyy.markdown-preview-enhanced",
+    "vsls-contrib.codetour",
+    "wayou.vscode-todo-highlight",
+    "biomejs.biome"
+  ]
+}

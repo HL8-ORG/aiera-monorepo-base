@@ -27,7 +27,8 @@ export default defineConfig({
       {
         text: 'monorepo',
         items: [
-          { text: 'monorepo', link: '/monorepo/index' }
+          { text: 'monorepo', link: '/monorepo/index' },
+          { text: 'database', link: '/database/docker-compose-yaml' }
         ]
       },
       {
