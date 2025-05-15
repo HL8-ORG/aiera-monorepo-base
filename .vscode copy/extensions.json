@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "adpyke.codesnap",
+    "wallabyjs.console-ninja",
+    "mhutchie.git-graph",
+    "github.vscode-pull-request-github",
+    "bierner.markdown-preview-github-styles"
+  ]
+}
