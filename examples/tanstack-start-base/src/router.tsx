@@ -13,7 +13,7 @@ export function createRouter() {
     routeTree, // 使用自动生成的路由树
     defaultPreload: 'intent', // 默认使用intent方式进行预加载
     defaultErrorComponent: DefaultCatchBoundary, // 设置默认错误边界组件
-    defaultNotFoundComponent: () => <NotFound />, // 设置默认404页面组件
+    defaultNotFoundComponent: () => <NotFound/>, // 设置默认404页面组件
     scrollRestoration: true, // 启用滚动位置恢复功能
   })
 

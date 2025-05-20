@@ -1,6 +1,6 @@
 {
   // 包含所有.ts和.tsx文件进行编译
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "chat.tsx"],
   "compilerOptions": {
     // 启用所有严格类型检查选项
     "strict": true,
@@ -31,6 +31,7 @@
     // 配置路径别名，~/*指向src目录
     "paths": {
       "~/*": ["./src/*"]
+      //"@hl8/ui/*": ["../../packages/ui/*"]
     },
     // 不生成输出文件
     "noEmit": true

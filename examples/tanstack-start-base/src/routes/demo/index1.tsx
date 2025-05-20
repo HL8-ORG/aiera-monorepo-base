@@ -3,7 +3,7 @@ import * as fs from 'node:fs'
 import { createFileRoute, useRouter } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { useState } from 'react'
-import { Button } from "@repo/ui/components/button";
+import { Button } from '@hl8/ui/components/button'
 const filePath = 'count.txt'
 
 async function readCount() {

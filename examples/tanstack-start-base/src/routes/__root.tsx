@@ -18,7 +18,22 @@ import { seo } from '~/utils/seo'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 import ThemeToggle from '~/components/ThemeToggle';
 
-export const Route = createRootRoute({
+export const Route = createRootRoute(
+  /**
+   * 根路由组件：这是所有其他路由的入口点，我们在这里设置一些全局配置
+   * 设计到Auth的时候，你可以在这里处理获取用户信息的逻辑，例如：
+   * 
+   ``` ts
+   beforeLoad: async () => {
+    const user = await fetchUser()
+
+    return {
+      user,
+    }
+  },
+  ```
+   */
+  {
   head: () => ({
     meta: [
       {
@@ -64,7 +79,7 @@ export const Route = createRootRoute({
       </RootDocument>
     )
   },
-  notFoundComponent: () => <NotFound />,
+  notFoundComponent: () => <NotFound>页面不存在啦！</NotFound>,
   component: RootComponent,
 })
 
@@ -145,7 +160,7 @@ function Navbar() {
 
 function RootDocument({ children }: { readonly children: React.ReactNode }) {
   return (
-    // 压制由于我们正在下面的自定义脚本中更新“黑暗”类
+    // 压制由于我们正在下面的自定义脚本中更新"黑暗"类
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
         <HeadContent />
