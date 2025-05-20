@@ -5,17 +5,17 @@
   "tsx": true,
   "tailwind": {
     "config": "",
-    "css": "src/styles/globals.css",
+    "css": "styles/globals.css",
     "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
   },
   "aliases": {
-    "components": "@workspace/ui/components",
-    "utils": "@workspace/ui/lib/utils",
-    "hooks": "@workspace/ui/hooks",
-    "lib": "@workspace/ui/lib",
-    "ui": "@workspace/ui/components"
+    "components": "@hl8/ui/components",
+    "utils": "@hl8/ui/lib/utils",
+    "ui": "@hl8/ui/components/ui",
+    "lib": "@hl8/ui/lib",
+    "hooks": "@hl8/ui/hooks"
   },
   "iconLibrary": "lucide"
 }

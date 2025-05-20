@@ -6,8 +6,11 @@
     "initdb",
     "isbot",
     "joeferner",
+    "ollama",
     "pgadmin",
     "pgbouncer",
+    "shadcn",
     "vinxi"
-  ]
+  ],
+  "css.lint.unknownAtRules": "ignore"
 }

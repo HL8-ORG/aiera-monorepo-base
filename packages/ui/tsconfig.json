@@ -4,9 +4,9 @@
     "baseUrl": ".",
     "outDir": "./dist",
     "paths": {
-      "@repo/ui/*": ["./src/*"]
+      "@hl8/ui/*": ["./*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "../../examples/better-auth-tanstack-starter/components/user-button.tsx"],
   "exclude": ["node_modules", "dist"]
 }

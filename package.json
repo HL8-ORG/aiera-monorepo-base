@@ -22,7 +22,9 @@
     "typecheck": "pnpm -r typecheck",
     "check": "biome check .",
     "check:fix": "biome check --fix .",
-    "clean": "rm -rf node_modules && pnpm -r exec -- rm -rf node_modules && rm pnpm-lock.yaml"
+    "clean": "rm -rf node_modules && pnpm -r exec -- rm -rf node_modules && rm pnpm-lock.yaml",
+    "clean:build": "find . -name dist -o -name cache -type d -prune | xargs rm -rf",
+    "pnpm add ": "pnpm --filter"
   },
   "config": {
     "commitizen": {

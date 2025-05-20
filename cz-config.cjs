@@ -28,7 +28,14 @@ module.exports = {
     { value: "release", name: "🏹 release: 发版" },
   ],
   // 自定义范围
-  scopes: [{ name: "repo" }, { name: "apps" }, { name: "packages" }, { name: "docs" }, { name: "config" }],
+  scopes: [
+    { name: "repo" },
+    { name: "apps" },
+    { name: "packages" },
+    { name: "examples" },
+    { name: "docs" },
+    { name: "config" },
+  ],
   // allowTicketNumber: false,
   isTicketNumberRequired: false,
   ticketNumberPrefix: "TICKET-",

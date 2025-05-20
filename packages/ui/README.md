@@ -1,4 +1,4 @@
-# @repo/ui
+# @hl8/ui
 
 A collection of reusable UI components for Frontree projects, built with Radix UI, styled with Tailwind CSS, and powered by [shadcn/ui](https://ui.shadcn.com/).
 
@@ -9,7 +9,7 @@ Since this is a workspace package, you can reference it directly in your project
 ```json
 {
   "dependencies": {
-    "@repo/ui": "workspace:*"
+    "@hl8/ui": "workspace:*"
   }
 }
 ```
@@ -38,8 +38,8 @@ For example:
 ### Components
 
 ```tsx
-import { Button } from "@repo/ui/components/button";
-import { Dialog } from "@repo/ui/components/dialog";
+import { Button } from "@hl8/ui/components/button";
+import { Dialog } from "@hl8/ui/components/dialog";
 
 function MyComponent() {
   return (
@@ -86,13 +86,13 @@ function ResponsiveComponent() {
 
 ```tsx
 // In your main CSS file
-import "@repo/ui/globals.css";
+import "@hl8/ui/globals.css";
 ```
 
 ### Utility Functions
 
 ```tsx
-import { cn } from "@repo/ui/lib/utils";
+import { cn } from "@hl8/ui/lib/utils";
 
 function MyComponent({ className }) {
   return (

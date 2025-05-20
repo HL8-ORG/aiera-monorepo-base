@@ -7,6 +7,7 @@
     "shd101wyy.markdown-preview-enhanced",
     "vsls-contrib.codetour",
     "wayou.vscode-todo-highlight",
-    "biomejs.biome"
+    "biomejs.biome",
+    "imgildev.vscode-auto-barrel"
   ]
 }
