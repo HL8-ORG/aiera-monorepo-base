@@ -1,0 +1,39 @@
+{
+  // 包含所有.ts和.tsx文件进行编译
+  "include": ["**/*.ts", "**/*.tsx", "../tanstack-start-base/chat.tsx"],
+  "compilerOptions": {
+    // 启用所有严格类型检查选项
+    "strict": true,
+    // 启用ES模块互操作性
+    "esModuleInterop": true,
+    // 使用React的JSX转换
+    "jsx": "react-jsx",
+    // 使用ES模块系统
+    "module": "ESNext",
+    // 使用Bundler模块解析策略
+    "moduleResolution": "Bundler",
+    // 包含DOM、DOM.Iterable和ES2022库
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    // 确保每个文件可以单独编译
+    "isolatedModules": true,
+    // 允许导入JSON模块
+    "resolveJsonModule": true,
+    // 跳过库文件的类型检查
+    "skipLibCheck": true,
+    // 编译目标为ES2022
+    "target": "ES2022",
+    // 允许编译JavaScript文件
+    "allowJs": true,
+    // 强制文件名大小写一致
+    "forceConsistentCasingInFileNames": true,
+    // 设置基础路径为当前目录
+    "baseUrl": ".",
+    // 配置路径别名，~/*指向src目录
+    "paths": {
+      "~/*": ["./src/*"]
+      //"@hl8/ui/*": ["../../packages/ui/*"]
+    },
+    // 不生成输出文件
+    "noEmit": true
+  }
+}
